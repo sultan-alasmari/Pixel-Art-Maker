@@ -21,6 +21,7 @@ pixelCanvas.addEventListener('click', function(e) {
     }
 
 });
+// This function it used for user can insert numbers of rows and heights
 
 function makeGrid() {
     for (let i = 0; i < rowsNumber.value; i++) {
