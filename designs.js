@@ -21,7 +21,15 @@ pixelCanvas.addEventListener('click', function(e) {
     }
 
 });
-// This function it used for user can insert numbers of rows and heights
+/*
+
+This makeGrid function to know :
+1- the height that user insert
+2- first loop to know the height that have variable (i)
+3- we are use insertRow method
+4-In second loop we are use insertCell method
+
+*/
 
 function makeGrid() {
     for (let i = 0; i < rowsNumber.value; i++) {
